@@ -1,0 +1,54 @@
+#login {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color:rgb(73, 190, 226);
+
+}
+
+
+#login .title{
+    color:white;
+    font-size: 2.5rem;
+    padding: 3rem;
+}
+
+#login .form{
+    background-color: rgb(186, 222, 243);
+    width: 100%;
+    max-width: 480px;
+    max-height: 320px;
+    padding:  0.5rem;
+    border-radius: 5px;
+}
+
+
+#login .field input{
+    width: 100%;
+    display: block;
+    margin-top: 1rem;
+}
+
+#login .actions {    
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    text-align: center;
+}
+
+#button {
+    margin-top: 1rem;
+    width: 100%;
+    max-width: 200px;
+}
+
+#buttomGroup {
+    width: 100%;
+    max-width: 200px;
+    
+}
+

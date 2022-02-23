@@ -1,0 +1,27 @@
+POST http://localhost:8081/api/login
+Content-Type: application/json
+
+{
+    "login": "cli1@gmail.com",
+    "password": "12345"
+}
+###
+GET http://localhost:8081/clients/1
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJjbGkxQGdtYWlsLmNvbSIsImV4cCI6MTY0NTU4OTAzOX0.KCkEOFARuxNJvtAP9M3JBj2xpuUP_oiBacpMHof_yzgraXCfm8YE-xEDVZqoDIqEfY36lOUDWw7E9AZ2tfOm4g
+
+###
+
+GET http://localhost:8081/client-skills/1
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJjbGkxQGdtYWlsLmNvbSIsImV4cCI6MTY0NTYwMTkwN30.SOoQRdmlxxoc11-cm7OBgUYvbgNFbTx2gnSYvYhsU71qIxVVn0fEl77szHSa-6wl9GUjAgIopXQDuGdQp86r8Q
+
+###
+DELETE http://localhost:8081/client-skills/1
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJjbGkxQGdtYWlsLmNvbSIsImV4cCI6MTY0NTYwMTkwN30.SOoQRdmlxxoc11-cm7OBgUYvbgNFbTx2gnSYvYhsU71qIxVVn0fEl77szHSa-6wl9GUjAgIopXQDuGdQp86r8Q
+
+###
+GET http://localhost:8081/skills
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJjbGkxQGdtYWlsLmNvbSIsImV4cCI6MTY0NTYwMTkwN30.SOoQRdmlxxoc11-cm7OBgUYvbgNFbTx2gnSYvYhsU71qIxVVn0fEl77szHSa-6wl9GUjAgIopXQDuGdQp86r8Q

@@ -1,0 +1,143 @@
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(73, 190, 226);
+    height: 100%;
+    min-height: 100vh;
+}
+
+#buttons{   
+    border: 2px;
+}
+#buttons .deleteIcon{
+    margin-right: 1rem;
+}
+
+#container .logo{
+    width: 50px;
+    height: 50px;
+}
+
+.buttonDialog{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+#confirmButton {
+    width: 100%;
+    max-width: 200px;
+    margin-top: 1rem;
+   
+}
+
+#cancelButton {
+    width: 100%;
+    max-width: 200px;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.formControl{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 1rem;
+    height: 100%;
+    justify-content: center;
+}
+
+.formSkill{
+    width: 100%;
+}
+
+
+.formControlAdd {
+    
+    width: 100%;
+      
+}
+
+
+.formControlAdd2 {
+    
+    width: 100%;    
+}
+
+#formControlEdit {
+    width: 95%;
+   
+}
+
+.actions{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 1rem;
+    padding-bottom: 5rem;
+  
+}
+
+.regularButtons{
+    display: flex;
+    max-height: 38px;
+  
+
+}
+
+#addSkillButton {
+    display: flex;
+    align-self: flex-end;
+}
+
+#buttonCarregar{
+    width: 100%;
+    max-width: 100px;
+
+}
+
+#buttonVoltar{
+    width: 100%;
+    max-width: 100px;
+    margin-right: 1rem;
+
+}
+
+#addSkillButton{
+size: "large";
+}
+
+#iconAddButton{
+size: "large"
+
+}
+
+/* #title{
+    color: white;
+    font-weight: 280px;
+    font-family: 'Times New Roman', Times, serif;
+    align-self:flex-start;
+    margin-left: 4rem;
+    position: relative;
+   
+} */
+
+#container .appBarLogo{
+    width: 50px;
+    height: 50px;
+}
+
+#container .githubLogo{
+    width: 90px;
+    height: 50px;
+    display: flex;
+    justify-self:end;
+
+}
+
