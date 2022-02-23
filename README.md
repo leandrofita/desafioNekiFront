@@ -1,4 +1,4 @@
-# INFORMÇÕES PARA O LOGIN:
+# INFORMAÇÕES PARA O LOGIN:
 
 LOGIN: cli1@gmail.com
 
