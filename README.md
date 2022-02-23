@@ -1,5 +1,7 @@
-INFORMÇÕES PARA O LOGIN: 
+# INFORMÇÕES PARA O LOGIN:
+
 LOGIN: cli1@gmail.com
+
 PASSWORD: 12345
 
 # Getting Started with Create React App
